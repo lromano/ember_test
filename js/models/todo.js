@@ -1,21 +1,21 @@
 Todos.Todo = DS.Model.extend({
-  title: DS.attr('string'), 
+  title: DS.attr('string'),
   isCompleted: DS.attr('boolean')
-}); 
+});
 
 Todos.Todo.FIXTURES =  [
   {
     id: 1,
-    title: 'Lean ember.js', 
+    title: 'Lean ember.js',
     isCompleted: true
-  }, 
+  },
 
   {
    id: 2,
    title: '...',
    isCompleted: false
  },
- 
+
  {
    id: 3,
    title: 'Profit!',
